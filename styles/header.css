@@ -1,5 +1,38 @@
-h1 {
-  color: #3A86FF;
-  font-family: Poppins;
-  font-weight: 300;
+header {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 55px;
+
+  background-color: white;
+
+  border-bottom: 2px solid yellow;
+
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #3A86FF;
+  font-family: Poppins, Arial;
+  font-weight: 800;
+  font-size: 30px;
+
+  padding-left: 4px;
+}
+
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
